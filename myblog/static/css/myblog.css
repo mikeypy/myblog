@@ -1,0 +1,31 @@
+html, body, h1 , h2 , p , a {
+    display: block;
+}
+html, body{
+    background-color: beige;
+}
+
+h1,h2 a{
+  color:brown;
+  font-family: 'Lobster';
+}
+.well{
+    background-color:beige;
+    margin-bottom: 30px;
+    
+}
+.well h1, .well h1 a, .well h1 a:visited, .well h1 a:active {
+    color:royalblue;
+    font-size: 36pt;
+    text-decoration: none;
+}
+.post {
+    margin-bottom: 50px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
+.date {
+    color: #743494;
+}
