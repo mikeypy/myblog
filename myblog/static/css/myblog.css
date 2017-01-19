@@ -21,6 +21,7 @@ h1,h2 a{
 }
 .post {
     margin-bottom: 50px;
+    margin-top: 40px;
 }
 
 .post h1 a, .post h1 a:visited {
@@ -28,4 +29,18 @@ h1,h2 a{
 }
 .date {
     color: #743494;
+}
+.top-menu a, .top-menu:hover, .top-menu:visited {
+    color: #975674;
+    float: right;
+    font-size: 15pt;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
 }
